@@ -10,7 +10,7 @@ no cloud LLM bill, no data leaving your machine.
 
 ## Why this project
 
-Most "AI chatbot" portfolio projects call a paid API and stop there. This one
+Most "AI chatbot" projects call a paid API and stop there. This one
 is meant to demonstrate the parts that actually separate a resume line from
 real understanding:
 
@@ -154,7 +154,7 @@ src/
 
 ## Optional: free public demo (no local install for visitors)
 
-If you want a live demo link for your portfolio instead of "clone and run
+If you want a live demo link for your instead of "clone and run
 locally," swap the local Ollama calls in `src/lib/ollama.ts` for
 [Groq](https://groq.com)'s free-tier API (fast, hosts open-source models like
 Llama 3.3, no cost at low volume), then deploy:
@@ -165,5 +165,3 @@ Llama 3.3, no cost at low volume), then deploy:
 
 That swap is intentionally isolated to `lib/ollama.ts` and `lib/vectorStore.ts`
 so it doesn't touch the rest of the app.
-
-## License
