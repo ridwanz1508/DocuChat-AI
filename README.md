@@ -61,7 +61,7 @@ implemented without a framework like LangChain so every step is visible.
 1. **Node.js 18+** — [nodejs.org](https://nodejs.org)
 2. **Ollama** — [ollama.com/download](https://ollama.com/download) (free, runs on macOS/Windows/Linux)
 
-## Setup (local, free, ~10 minutes)
+## Setup (local, free)
 
 ### 1. Install Ollama and pull the two models
 
